@@ -12,7 +12,7 @@ This module sets up AWS ECS on Fargate
 
 ```hcl
 module "ecs_fargate" {
-  source = "rms1000watt/ecs-fargate/aws"
+  source = "github.com/dinesh-AC3/Fargate-terraform-module"
 
   security_groups = ["sg-xxxxxxxxxxxx"]
   subnets         = ["10.0.1.0/24", "10.0.2.0/24"]
